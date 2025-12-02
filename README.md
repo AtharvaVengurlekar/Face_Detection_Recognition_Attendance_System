@@ -1,7 +1,7 @@
 # Face Detection & Recognition – Attendance System
 
-A real-time face detection and recognition system designed for attendance tracking using **YOLO**, **ArcFace**, and **Streamlit**.  
-Supports **Docker GPU deployment** for high-performance inference.
+A real-time face detection and recognition system for attendance tracking using YOLO, ArcFace, and Streamlit.
+Supports webcams and CCTV camera streams for live monitoring, and Docker GPU deployment for high-performance inference.
 
 🔹 YOLO (You Only Look Once)
 
