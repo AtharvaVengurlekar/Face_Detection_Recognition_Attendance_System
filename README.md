@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 ## Start the Streamlit application:
 ```bash
-streamlit run attandance_app.py
+streamlit run app.py
 ```
 
 ## Run Using Docker (GPU Deployment)
