@@ -16,16 +16,16 @@ Used to match detected faces with saved identities for accurate attendance marki
 This project includes two face-recognition models that I trained on a custom dataset of 48,000 images (16k + 32k) to achieve high-accuracy embeddings for the attendance system.
 
 1. trained_on_16k+32k_images.pt (PyTorch Model)
-- ** A full-precision model trained using the complete dataset.
-B) Best used for further training, fine-tuning, or standard inference
-C) Provides highest accuracy
-D) Suitable for research, experimentation, or re-training
+- A full-precision model trained using the complete dataset.
+- Best used for further training, fine-tuning, or standard inference
+- Provides highest accuracy
+- Suitable for research, experimentation, or re-training
 
 2. trained_on_16k+32k_images_int8.engine (TensorRT INT8 Model)
-A) An INT8-quantized TensorRT engine built from the trained PyTorch model.
-B) Designed for real-time GPU deployment
-C) 4×–6× faster than FP32 with much lower memory usage
-D) Small accuracy drop but ideal for production, Docker GPU containers, and edge devices
+- An INT8-quantized TensorRT engine built from the trained PyTorch model.
+- Designed for real-time GPU deployment
+- 4×–6× faster than FP32 with much lower memory usage
+- Small accuracy drop but ideal for production, Docker GPU containers, and edge devices
 
 ---
 
