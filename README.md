@@ -3,6 +3,16 @@
 A real-time face detection and recognition system designed for attendance tracking using **YOLO**, **ArcFace**, and **Streamlit**.  
 Supports **Docker GPU deployment** for high-performance inference.
 
+🔹 YOLO (You Only Look Once)
+
+A fast, single-shot object detection model that processes the entire image in one pass.
+Used here to detect faces in real time, providing high FPS and accurate bounding boxes.
+
+🔹 ArcFace
+
+A state-of-the-art face recognition model that learns highly discriminative facial embeddings using additive angular margin loss.
+Used to match detected faces with saved identities for accurate attendance marking.
+
 ---
 
 ## Requirements
