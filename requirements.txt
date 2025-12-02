@@ -1,0 +1,9 @@
+streamlit==1.51.0
+numpy==1.26.4
+opencv-python==4.10.0.84
+opencv-python-headless==4.10.0.84
+ultralytics==8.1.0
+pymongo==4.15.3
+insightface==0.7.3
+onnxruntime-gpu==1.18.1
+faiss-cpu==1.11.0
