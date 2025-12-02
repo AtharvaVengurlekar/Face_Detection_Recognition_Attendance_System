@@ -16,7 +16,7 @@ Used to match detected faces with saved identities for accurate attendance marki
 This project includes two face-recognition models that I trained on a custom dataset of 48,000 images (16k + 32k) to achieve high-accuracy embeddings for the attendance system.
 
 1. trained_on_16k+32k_images.pt (PyTorch Model)
-A) A full-precision model trained using the complete dataset.
+- ** A full-precision model trained using the complete dataset.
 B) Best used for further training, fine-tuning, or standard inference
 C) Provides highest accuracy
 D) Suitable for research, experimentation, or re-training
