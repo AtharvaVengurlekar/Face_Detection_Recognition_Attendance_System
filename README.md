@@ -23,6 +23,13 @@ Used to match detected faces with saved identities for accurate attendance marki
 
 ---
 
+## Create Environment 
+Using Conda (Recommended)
+```bash
+conda create -n face_env python=3.10.13
+conda activate face_env
+```
+
 ## Run Application Directly (Without Docker)
 Make sure dependencies are installed:
 ```bash
