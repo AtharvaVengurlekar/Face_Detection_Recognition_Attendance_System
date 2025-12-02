@@ -13,6 +13,20 @@ Used here to detect faces in real time, providing high FPS and accurate bounding
 A state-of-the-art face recognition model that learns highly discriminative facial embeddings using additive angular margin loss.
 Used to match detected faces with saved identities for accurate attendance marking.
 
+This project includes two face-recognition models that I trained on a custom dataset of 48,000 images (16k + 32k) to achieve high-accuracy embeddings for the attendance system.
+
+1. trained_on_16k+32k_images.pt (PyTorch Model)
+A) A full-precision model trained using the complete dataset.
+B) Best used for further training, fine-tuning, or standard inference
+C) Provides highest accuracy
+D) Suitable for research, experimentation, or re-training
+
+2. trained_on_16k+32k_images_int8.engine (TensorRT INT8 Model)
+A) An INT8-quantized TensorRT engine built from the trained PyTorch model.
+B) Designed for real-time GPU deployment
+C) 4×–6× faster than FP32 with much lower memory usage
+D) Small accuracy drop but ideal for production, Docker GPU containers, and edge devices
+
 ---
 
 ## Requirements
